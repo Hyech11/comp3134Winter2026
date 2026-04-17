@@ -1,0 +1,22 @@
+Command:
+tcpdump -A -c 5 -i eth0
+
+Output:
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:15:47.116160 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 4231769034:4231769142, ack 1190757901, win 466, length 108
+E.....@.@.......c........;..F...P....@...h.7.......MN[...;...w...6@4G...m       ..H.......d...FQ...V...}.....lv.Q..VN.....t......!y....r+./....f..b.QA...o
+21:15:47.116308 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 108:224, ack 1, win 466, length 116
+E.....@.@.......c........;.6F...P....H.....R.._8...
+...Q.a......0.1..C.$.eXSZ....O..m8.{a..!V=o$....m........<      E,..E..[R.&O.u#.i..c.....".a..T....
+..Bh....2
+21:15:47.128253 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [.], ack 0, win 16491, length 0
+E..(..@.w.Yac...........F....;..P.@k..........
+21:15:47.136816 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 0, win 16491, length 36
+E..L..@.w.Y<c...........F....;..P.@k.V...e.R{..I/..q...&ka.     ]...C.S.V6.G...(
+21:15:47.136816 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [.], ack 224, win 16490, length 0
+E..(..@.w.Y_c...........F..1.;..P.@j
+.........
+5 packets captured
+21 packets received by filter
+0 packets dropped by kernel

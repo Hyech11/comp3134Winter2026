@@ -1,0 +1,54 @@
+Command:
+tcpdump -XX -c 5 -i eth0
+
+Output:
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:17:25.880941 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 4231785854:4231785962, ack 1190771969, win 466, length 108
+        0x0000:  fe00 0000 0101 b246 8c67 f8be 0800 4510  .......F.g....E.
+        0x0010:  0094 8f2b 4000 4006 916f 9fcb 1a19 63f1  ...+@.@..o....c.
+        0x0020:  fbe3 0016 d4ed fc3b ed7e 46f9 bd01 5018  .......;.~F...P.
+        0x0030:  01d2 1a40 0000 a2bf 4bce 8636 ab32 ba2c  ...@....K..6.2.,
+        0x0040:  c713 1875 570f dec7 a014 cc77 bb41 07e0  ...uW......w.A..
+        0x0050:  ad19 c395 d69b 7802 7967 3c78 8fac da75  ......x.yg<x...u
+        0x0060:  1098 fa92 d046 a5a6 919d d075 549a 1201  .....F.....uT...
+        0x0070:  31f1 228d 70fa c476 db07 c58b 4136 e6b1  1.".p..v....A6..
+        0x0080:  eb8c b4f1 7f7f f0bd 920f 831d e7dc cb5a  ...............Z
+        0x0090:  bc0b 38be 06c1 c928 f9ff 6a9d 8f07 19ef  ..8....(..j.....
+        0x00a0:  04cd                                     ..
+21:17:25.881003 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 108:144, ack 1, win 466, length 36
+        0x0000:  fe00 0000 0101 b246 8c67 f8be 0800 4510  .......F.g....E.
+        0x0010:  004c 8f2c 4000 4006 91b6 9fcb 1a19 63f1  .L.,@.@.......c.
+        0x0020:  fbe3 0016 d4ed fc3b edea 46f9 bd01 5018  .......;..F...P.
+        0x0030:  01d2 19f8 0000 c013 4300 936f bb0a f043  ........C..o...C
+        0x0040:  1303 8595 eba2 e1da c04f 0f24 332a 1660  .........O.$3*.`
+        0x0050:  5348 44fb e685 918c e621                 SHD......!
+21:17:25.881038 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 144:196, ack 1, win 466, length 52
+        0x0000:  fe00 0000 0101 b246 8c67 f8be 0800 4510  .......F.g....E.
+        0x0010:  005c 8f2d 4000 4006 91a5 9fcb 1a19 63f1  .\.-@.@.......c.
+        0x0020:  fbe3 0016 d4ed fc3b ee0e 46f9 bd01 5018  .......;..F...P.
+        0x0030:  01d2 1a08 0000 b854 42ff bc26 bf19 366b  .......TB..&..6k
+        0x0040:  9498 05d3 12d6 0f3f 32cb 55ac 7a50 ee26  .......?2.U.zP.&
+        0x0050:  dd5b 6582 a0a4 4a1c 5e3a 9a5e d61a 794e  .[e...J.^:.^..yN
+        0x0060:  9acd ff6f 2556 8547 94ff                 ...o%V.G..
+21:17:25.881069 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 196:264, ack 1, win 466, length 68
+        0x0000:  fe00 0000 0101 b246 8c67 f8be 0800 4510  .......F.g....E.
+        0x0010:  006c 8f2e 4000 4006 9194 9fcb 1a19 63f1  .l..@.@.......c.
+        0x0020:  fbe3 0016 d4ed fc3b ee42 46f9 bd01 5018  .......;.BF...P.
+        0x0030:  01d2 1a18 0000 231c bc08 7383 97c7 9a46  ......#...s....F
+        0x0040:  9881 eb00 5f4b 2f79 3f59 ec1c 4b74 00af  ...._K/y?Y..Kt..
+        0x0050:  5288 63c9 d183 e4d9 08a5 3461 712a 9abe  R.c.......4aq*..
+        0x0060:  370e 06e3 edba ebe3 0eef 8231 600c e879  7..........1`..y
+        0x0070:  1a8e 6e29 5e80 1e9a bad0                 ..n)^.....
+21:17:25.881099 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 264:332, ack 1, win 466, length 68
+        0x0000:  fe00 0000 0101 b246 8c67 f8be 0800 4510  .......F.g....E.
+        0x0010:  006c 8f2f 4000 4006 9193 9fcb 1a19 63f1  .l./@.@.......c.
+        0x0020:  fbe3 0016 d4ed fc3b ee86 46f9 bd01 5018  .......;..F...P.
+        0x0030:  01d2 1a18 0000 b44b 9751 5ca7 6f76 0e39  .......K.Q\.ov.9
+        0x0040:  18ed ac72 24c4 c90e 2c1d 3550 c55d 283c  ...r$...,.5P.](<
+        0x0050:  37b9 f217 f32b ec81 c5de 3ae8 f082 574a  7....+....:...WJ
+        0x0060:  3c3c 2ce8 c8f0 e19e 91a4 96c3 28a8 2138  <<,.........(.!8
+        0x0070:  f5d9 196b 599f 2c06 b692                 ...kY.,...
+5 packets captured
+44 packets received by filter
+0 packets dropped by kernel

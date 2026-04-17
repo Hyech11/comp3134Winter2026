@@ -1,0 +1,67 @@
+Command:
+tcpdump -i eth0 tcp
+
+Output:
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:20:59.451628 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 4231898046:4231898154, ack 1190837537, win 642, length 108
+21:20:59.451838 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 108:144, ack 1, win 642, length 36
+21:20:59.451939 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 144:196, ack 1, win 642, length 52
+21:20:59.451986 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 196:264, ack 1, win 642, length 68
+21:20:59.452019 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 264:332, ack 1, win 642, length 68
+21:20:59.452046 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 332:368, ack 1, win 642, length 36
+21:20:59.467392 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [.], ack 368, win 16488, length 0
+21:20:59.476044 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 368, win 16488, length 36
+21:20:59.476244 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 368:404, ack 37, win 642, length 36
+21:20:59.493314 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 404, win 16487, length 36
+21:20:59.493545 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 404:440, ack 73, win 642, length 36
+21:20:59.514936 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 440, win 16493, length 36
+21:20:59.515118 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 440:476, ack 109, win 642, length 36
+21:20:59.547426 IP comp3134-Winter2026.38880 > 67.207.67.2.domain: Flags [S], seq 3602643561, win 64240, options [mss 1460,sackOK,TS val 993400679 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+21:20:59.549468 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 109:145, ack 476, win 16493, length 36
+21:20:59.549723 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 476:512, ack 145, win 642, length 36
+21:20:59.550828 IP 67.207.67.2.domain > comp3134-Winter2026.38880: Flags [S.], seq 2460033704, ack 3602643562, win 65160, options [mss 1460,sackOK,TS val 2074956463 ecr 993400679,nop,wscale 7], length 0
+21:20:59.550873 IP comp3134-Winter2026.38880 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 993400683 ecr 2074956463], length 0
+21:20:59.550908 IP comp3134-Winter2026.38880 > 67.207.67.2.domain: Flags [P.], seq 1:48, ack 1, win 502, options [nop,nop,TS val 993400683 ecr 2074956463], length 47 8378+ PTR? 227.251.241.99.in-addr.arpa. (45)
+21:20:59.552095 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 512:724, ack 145, win 642, length 212
+21:20:59.552161 IP 67.207.67.2.domain > comp3134-Winter2026.38880: Flags [.], ack 48, win 509, options [nop,nop,TS val 2074956465 ecr 993400683], length 0
+21:20:59.552326 IP 67.207.67.2.domain > comp3134-Winter2026.38880: Flags [P.], seq 1:106, ack 48, win 509, options [nop,nop,TS val 2074956465 ecr 993400683], length 105 8378 1/0/0 PTR pool-99-241-251-227.cpe.net.cable.rogers.com. (103)
+21:20:59.552349 IP comp3134-Winter2026.38880 > 67.207.67.2.domain: Flags [.], ack 106, win 502, options [nop,nop,TS val 993400684 ecr 2074956465], length 0
+21:20:59.552570 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 724:1504, ack 145, win 642, length 780
+21:20:59.552606 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 1504:2580, ack 145, win 642, length 1076
+21:20:59.566832 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 145:181, ack 512, win 16493, length 36
+21:20:59.567006 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 2580:2616, ack 181, win 642, length 36
+21:20:59.575368 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [.], ack 2580, win 16493, length 0
+21:20:59.575368 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [.], ack 2616, win 16493, length 0
+21:20:59.592691 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 181:217, ack 2616, win 16493, length 36
+21:20:59.592859 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 2616:2652, ack 217, win 642, length 36
+21:20:59.609951 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 217:253, ack 2652, win 16493, length 36
+21:20:59.610118 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 2652:2688, ack 253, win 642, length 36
+21:20:59.631642 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 253:289, ack 2688, win 16493, length 36
+21:20:59.631847 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 2688:2724, ack 289, win 642, length 36
+21:20:59.651083 IP comp3134-Winter2026.38880 > 67.207.67.2.domain: Flags [P.], seq 48:92, ack 106, win 502, options [nop,nop,TS val 993400783 ecr 2074956465], length 44 33115+ PTR? 2.67.207.67.in-addr.arpa. (42)
+21:20:59.652413 IP 67.207.67.2.domain > comp3134-Winter2026.38880: Flags [P.], seq 106:217, ack 92, win 509, options [nop,nop,TS val 2074956565 ecr 993400783], length 111 33115 NXDomain 0/1/0 (109)
+21:20:59.652453 IP comp3134-Winter2026.38880 > 67.207.67.2.domain: Flags [.], ack 217, win 502, options [nop,nop,TS val 993400784 ecr 2074956565], length 0
+21:20:59.654043 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 2724:2960, ack 289, win 642, length 236
+21:20:59.654273 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 2960:3868, ack 289, win 642, length 908
+21:20:59.654383 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 3868:4448, ack 289, win 642, length 580
+21:20:59.654440 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 4448:4644, ack 289, win 642, length 196
+21:20:59.654534 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 4644:4984, ack 289, win 642, length 340
+21:20:59.654607 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 4984:5332, ack 289, win 642, length 348
+21:20:59.654705 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 5332:5952, ack 289, win 642, length 620
+21:20:59.654775 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 5952:6300, ack 289, win 642, length 348
+21:20:59.654839 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 6300:6488, ack 289, win 642, length 188
+21:20:59.654900 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 6488:6684, ack 289, win 642, length 196
+21:20:59.668270 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 289:325, ack 2724, win 16492, length 36
+21:20:59.668454 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 6684:6720, ack 325, win 642, length 36
+21:20:59.676917 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [.], ack 6684, win 16493, length 0
+21:20:59.685581 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 325:361, ack 6720, win 16493, length 36
+21:20:59.685785 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 6720:6756, ack 361, win 642, length 36
+21:20:59.709361 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 361:397, ack 6756, win 16493, length 36
+21:20:59.709559 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 6756:6792, ack 397, win 642, length 36
+21:20:59.739701 IP pool-99-241-251-227.cpe.net.cable.rogers.com.54509 > comp3134-Winter2026.ssh: Flags [P.], seq 397:433, ack 6792, win 16493, length 36
+21:20:59.739907 IP comp3134-Winter2026.ssh > pool-99-241-251-227.cpe.net.cable.rogers.com.54509: Flags [P.], seq 6792:6828, ack 433, win 642, length 36
+^C
+57 packets captured
+69 packets received by filter
+0 packets dropped by kernel
