@@ -1,0 +1,19 @@
+===== microsoft.com =====
+IP Address: 150.171.109.216	
+Geolocation: Redmond, Washington, United States
+
+===== apple.com =====
+IP Address: 17.253.144.10
+Geolocation: San Jose, California, United States
+
+===== reddit.com =====
+IP Address: 151.101.193.140
+Geolocation: San Francisco, California, United States
+
+===== bbc.com =====
+IP Address: 151.101.128.81
+Geolocation: San Francisco, California, United States
+
+===== cnn.com =====
+IP Address: 151.101.195.5
+Geolocation: San Francisco, California, United States

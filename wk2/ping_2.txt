@@ -1,0 +1,17 @@
+
+Command:
+ping 159.203.26.25
+
+
+
+Output:
+Pinging 159.203.26.25 with 32 bytes of data:
+Reply from 159.203.26.25: bytes=32 time=44ms TTL=53
+Reply from 159.203.26.25: bytes=32 time=17ms TTL=53
+Reply from 159.203.26.25: bytes=32 time=16ms TTL=53
+Reply from 159.203.26.25: bytes=32 time=36ms TTL=53
+
+Ping statistics for 159.203.26.25:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 16ms, Maximum = 44ms, Average = 28ms

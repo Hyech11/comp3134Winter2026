@@ -1,0 +1,156 @@
+===== google.com =====
+Name
+GOOGLE.COM
+Registry Domain ID
+2138514_DOMAIN_COM-VRSN
+Registered On
+1997-09-15T04:00:00Z
+Expires On
+2028-09-14T04:00:00Z
+Updated On
+2019-09-09T15:39:04Z
+Domain Status
+client delete prohibited
+
+client transfer prohibited
+
+client update prohibited
+
+server delete prohibited
+
+server transfer prohibited
+
+server update prohibited
+
+Name Servers
+NS1.GOOGLE.COM
+
+NS2.GOOGLE.COM
+
+NS3.GOOGLE.COM
+
+NS4.GOOGLE.COM
+
+
+
+===== amazon.com =====
+Name
+AMAZON.COM
+Registry Domain ID
+281209_DOMAIN_COM-VRSN
+Registered On
+1994-11-01T05:00:00Z
+Expires On
+2026-10-31T04:00:00Z
+Updated On
+2025-07-31T17:49:55Z
+Domain Status
+client delete prohibited
+
+client transfer prohibited
+
+client update prohibited
+
+server delete prohibited
+
+server transfer prohibited
+
+server update prohibited
+
+Name Servers
+NS1.AMZNDNS.CO.UK
+
+NS1.AMZNDNS.COM
+
+NS1.AMZNDNS.NET
+
+NS1.AMZNDNS.ORG
+
+NS2.AMZNDNS.CO.UK
+
+NS2.AMZNDNS.COM
+
+NS2.AMZNDNS.NET
+
+NS2.AMZNDNS.ORG
+
+===== wikipedia.org =====
+Name
+wikipedia.org
+Registry Domain ID
+﹣
+Registered On
+2001-01-13T00:12:14.754Z
+Expires On
+2027-01-13T00:12:14Z
+Updated On
+2025-12-17T09:26:13.643Z
+Domain Status
+client delete prohibited
+
+client transfer prohibited
+
+client update prohibited
+
+Name Servers
+ns0.wikimedia.org
+
+ns1.wikimedia.org
+
+ns2.wikimedia.org
+
+===== netflix.com =====
+Name
+NETFLIX.COM
+Registry Domain ID
+1404215_DOMAIN_COM-VRSN
+Registered On
+1997-11-11T05:00:00Z
+Expires On
+2027-11-10T05:00:00Z
+Updated On
+2025-10-09T12:13:44Z
+Domain Status
+client delete prohibited
+
+client transfer prohibited
+
+client update prohibited
+
+server delete prohibited
+
+server transfer prohibited
+
+server update prohibited
+
+Name Servers
+NS-1372.AWSDNS-43.ORG
+
+NS-1984.AWSDNS-56.CO.UK
+
+NS-659.AWSDNS-18.NET
+
+NS-81.AWSDNS-10.COM
+
+===== georgebrown.ca =====
+Name
+georgebrown.ca
+Registry Domain ID
+D121739-CIRA
+Registered On
+2002-07-04T08:35:23Z
+Expires On
+2026-07-04T04:00:00Z
+Updated On
+2026-04-16T15:02:58Z
+Domain Status
+client transfer prohibited
+
+Name Servers
+ns1.d-zone.ca
+
+ns1.georgebrown.ca
+
+ns2.d-zone.ca
+
+ns2.georgebrown.ca
