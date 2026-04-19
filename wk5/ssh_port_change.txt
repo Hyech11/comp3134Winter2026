@@ -1,0 +1,6 @@
+service ssh restart
+ssh -p 2222 root@123.45.67.89
+
+
+result:
+ssh: connect to host 159.89.123.233 port 2222: Connection refused
