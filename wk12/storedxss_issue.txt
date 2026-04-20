@@ -1,0 +1,3 @@
+The page reads content from a stored file and outputs it directly without sanitization.
+If the stored file contains JavaScript, the browser can execute it automatically.
+This is a stored XSS issue because the payload is saved in storage and runs whenever the page is opened.

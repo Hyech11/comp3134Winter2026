@@ -1,0 +1,4 @@
+When I used csfr_form.php, the request succeeded because the valid confirmation token from the session was submitted with the form.
+When I used csfr.html, the forged request did not have the correct confirmation token.
+Because of that, the forged request was rejected.
+This shows that checking a random session token helps mitigate CSFR.
