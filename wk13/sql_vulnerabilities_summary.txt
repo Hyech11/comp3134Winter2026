@@ -1,0 +1,11 @@
+Scenario 1:
+With a normal first-name input, the page returned only rows that matched the first name and active = 1. This was the expected behavior.
+
+Scenario 2:
+With a crafted input from the lab handout, an unsafe query can behave differently from a normal search because special characters may change the intended SQL logic.
+
+Scenario 3:
+With another crafted input from the lab handout, an unsafe query may return broader or unexpected results if user input is concatenated directly into the SQL statement.
+
+Prepared Statement Result:
+After applying prepared statements in getusers_2.php, the input is treated as plain text instead of executable SQL syntax. The query keeps its intended behavior.
